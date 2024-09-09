@@ -39,7 +39,7 @@ export const Testimonials = () => {
           <div className="bg-white p-4 sm:p-6">
             <time dateTime="2022-10-10" className="block text-xs text-gray-500">
               {" "}
-              2021 Նոյեմբեր - 2024 Դեկտեմբեր
+              2022 
             </time>
             <div className="mt-10" />
             <a href="#">
@@ -71,7 +71,7 @@ export const Testimonials = () => {
           />
 
           <div className="bg-white p-4 sm:p-6">
-            <time dateTime="2022-10-10" className="block text-xs text-gray-500">
+            <time dateTime="2021-10-10" className="block text-xs text-gray-500">
               {" "}
               2021 Նոյեմբեր 
             </time>

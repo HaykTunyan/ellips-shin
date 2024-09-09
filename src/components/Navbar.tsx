@@ -27,7 +27,7 @@ export const Navbar = () => {
                 <defs id="SvgjsDefs1492"></defs>
                 <g
                   id="SvgjsG1493"
-                  featurekey="symbolFeature-0"
+                  // featurekey="symbolFeature-0"
                   transform="matrix(0.9720028246120027,0,0,0.9720028246120027,-0.87480309833528,-10.011629278898454)"
                   fill="#791075"
                 >
