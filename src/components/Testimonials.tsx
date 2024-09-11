@@ -2,30 +2,18 @@ import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 
-import userOneImg from "../../public/img/user1.jpg";
-import userTwoImg from "../../public/img/user2.jpg";
-import userThreeImg from "../../public/img/user3.jpg";
 import ArticleOne from "../../public/img/article-one.jpg";
 import AeticleTwo from "../../public/img/article-two.jpg";
 
 export const Testimonials = () => {
+
+  /**
+   *   Testimonials Hooks.
+   */
+
   return (
     <Container>
       <div className="w-full md:w-9/12 md:mx-auto grid gap-10 lg:grid-cols-2 xl:grid-cols-2">
-        {/* <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
-            </p>
-
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
-          </div>
-        </div> */}
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
           <Image
             src={ArticleOne}
@@ -39,7 +27,7 @@ export const Testimonials = () => {
           <div className="bg-white p-4 sm:p-6">
             <time dateTime="2022-10-10" className="block text-xs text-gray-500">
               {" "}
-              2022 
+              2022
             </time>
             <div className="mt-10" />
             <a href="#">
@@ -73,13 +61,13 @@ export const Testimonials = () => {
           <div className="bg-white p-4 sm:p-6">
             <time dateTime="2021-10-10" className="block text-xs text-gray-500">
               {" "}
-              2021 Նոյեմբեր 
+              2021 Նոյեմբեր
             </time>
             <div className="mt-10" />
             <a href="#">
               <h3 className="mt-0.5 text-lg text-gray-900">
-                Լույսեր բնակելի համալիր &quot;Բ&quot; և &quot;Դ&quot; մասնաշենքեր, ք. Երևան, 4-րդ
-                կարգի բարդության
+                Լույսեր բնակելի համալիր &quot;Բ&quot; և &quot;Դ&quot;
+                մասնաշենքեր, ք. Երևան, 4-րդ կարգի բարդության
               </h3>
             </a>
 

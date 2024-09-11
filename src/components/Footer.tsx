@@ -4,8 +4,16 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
+
+
+  /**
+   *  Footer Hooks.
+   */
+
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
   const legal = ["Terms", "Privacy", "Legal"];
+
+
   return (
     <div className="relative">
       <Container>
@@ -53,8 +61,8 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              ներկայումս կազմակերպության կողմից իրականացվում է չորրորդ կարգի
-              բարդության բարձրահարկ բազմաբնակարան բնակելի շենքերի  աշխատանքներ:
+             Ներկայումս կազմակերպության կողմից իրականացվում է չորրորդ կարգի բարդության բարձրահարկ
+բազմաբնակարան բնակելի շենքերի շինարարության որակի տեխնիկական հսկողության աշխատանքներ։
             </div>
           </div>
 

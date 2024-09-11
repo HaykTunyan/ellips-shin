@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image";
@@ -7,6 +8,10 @@ import { Disclosure } from "@headlessui/react";
 import loggff from "../../public/icon/logo_electron.svg";
 
 export const Navbar = () => {
+  /**
+   *  Navbar Hooks.
+   */
+
   const navigation = ["Մեր Մասին", "Features", "Pricing", "Company", "Blog"];
 
   const { theme, setTheme } = useTheme();
