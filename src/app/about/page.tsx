@@ -5,7 +5,6 @@ import { Benefits } from "@/components/Benefits";
 import { benefitThree } from "../../components/data";
 import Contact from "@/components/Contact";
 
-
 export default function About() {
 
     /**
